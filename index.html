@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="rus">
+    <head>
+        <meta charset="UTF-8">
+        <title>My CV</title>
+        <link href="styles.css"
+        rel="stylesheet"/>
+    </head>
+    <body> 
+        <div class="container">
+            <div class="Aboutme">
+                <img src="Я.jpeg" class="Je"/>
+                <div class="Aboutme-text">
+                    <form>
+                        <select onchange="if (this.value) window.location.href = this.value">
+                            <option selected value="index.html">Rus</option>
+                            <option value="indexeng.html">Eng</option>
+                        </select>
+                    </form>
+                    <h1>Егор Трубин</h1>
+                    <p>Дата рождения: 19.09.1997</p>
+                    <p>Эл.почта: <a type="email" href="mailto:egor.trubin97@gmail.com">egor.trubin97@gmail.com</a></p>
+                    <p>Телефон: +7 (920) 408 54 85</p>
+                    <p>Ин.яз.: англ (С1), пол (С1), исп (B1), кит (HSK3), швед (~A2)</p>
+                </div>
+            </div>
+                  <hr noshade size="3" color="RosyBrown"/>
+            <div class="card bg-pastel">
+                <h2>Опыт работы</h2>
+                <table class="table">
+                    <tr class="head">
+                        <th>Место работы</th>
+                        <th>Должность</th>
+                        <th>Дата</th>
+                    </tr>
+                    <tr>
+                        <td>Janus Worldwide</td>
+                        <td>Project Manager</td>
+                        <td>март 2022 - наст. время</td>
+                    </tr>
+                    <tr>
+                        <td>Филиал ПАО Энергоспецмонтаж в НРБ<br/>Госкорпорация "РОСАТОМ"</td>
+                        <td>Переводчик</td>
+                        <td>март 2021 - сентябрь 2021</td>
+                    </tr>
+                    <tr>
+                        <td>ООО "РИШОН" (школа Wall Street English)</td>
+                        <td>Куратор</td>
+                        <td>окттябрь 2020 - март 2021</td>
+                    </tr>
+                    <tr>
+                        <td>Воронежский государственный<br/> университет</td>
+                        <td>Переводчик</td>
+                        <td>сентябрь 2019 - июнь 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Центр подологии и эстетики</td>
+                        <td>Переводчик (пол)</td>
+                        <td>15-17 апрель 2019</td>
+                    </tr>
+                </table>  
+            </div>
+        
+            
+            <div class="card bg-astel">
+                <h2>Образование</h2>
+                <p>Воронежский государственный университет (ВГУ), 2015-2020, <strong>специалист</strong></p>
+                <p>Кафедра теории перевода и межкультурной коммуникации</p>
+                <p><strong>Специальность:</strong> лингвист-переводчик/военный переводчик</p>
+
+            </div>
+         <div class="card bg-stel">
+                <h2>Знание специализированных программ:</h2>
+                <ol class="list">
+                    <li>Уверенный пользователь SmartCat, SDL Trados, and MemoQ</li>
+                    <li>Базовое знание редактора трехмерной графики Autodesk Maya</li>
+                    <li>Увереный пользователь 1C</li>
+                    <li>Уверенный пользователь нотного редактора Guitar Pro</li>
+                </ol>
+         </div>
+         <hr size="3" noshade color="RosyBrown"/>
+            <!-- <h2>Хочешь увидеть мою жопу?</h2>
+            <a href="Моя жопа.html">Она прямо тут!</a> -->
+            <div class="contact">
+                <h2>Связаться со мной</h2>
+                <form>
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="name">Ваше имя:</label>
+                            <input type="text" id="name" placeholder="Впишите имя...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Ваш email:</label>
+                            <input type="email" id="email" placeholder="Введите email...">
+                        </div>
+                    </div>  
+
+                    <div class="form-group">
+                        <label for="message">Сообщение получателю:</label>
+                        <textarea id="message" placeholder="Кратко опишите свои мысли"></textarea>
+                    </div>
+
+                    <br>
+
+                    <input class="btn" type="submit" value="Отправить"/>
+                </form>
+                <hr noshade color="RosyBrown" size="3">
+            </div>
+            
+            <h2>Социальные сети:</h2>
+            <table>
+                <tr>
+                    <div class="social">
+                        <th><p><a href="https://t.me/ParagonUltra"><img id="Telega" src="Telegram1.png" width="50"></a></p></th>
+                        <th><p><a href="https://vk.com/egorissimus" target="_blank"><img src="ВКонтакте.png" width="50"></a></p></th>
+                        <th><p><a href="https://www.linkedin.com/in/egor-t-24106a82/"><img id="insta" src="instagram1.png" width="50"></a></p></th>
+                    </div>
+                </tr>
+            </table>
+    </div>
+    </body>
+</html>
